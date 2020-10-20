@@ -496,9 +496,9 @@
     #define DEFAULT_Ki_LIST {   1.54,   1.54 }
     #define DEFAULT_Kd_LIST {  76.55,  76.55 }
   #else
-    #define DEFAULT_Kp  22.54 //algs 21.73
+    #define DEFAULT_Kp  22.43 //algs 21.73
     #define DEFAULT_Ki   1.48 //algs 1.54
-    #define DEFAULT_Kd  85.81 //algs 76.55
+    #define DEFAULT_Kd  84.96 //algs 76.55
   #endif
 #endif // PIDTEMP
 
@@ -536,9 +536,9 @@
   //#define PID_BED_DEBUG // Sends debug data to the serial port.
 
   // Creality Ender-3 Pro
-  #define DEFAULT_bedKp 50.71
-  #define DEFAULT_bedKi 9.88
-  #define DEFAULT_bedKd 173.43
+  #define DEFAULT_bedKp 90.99
+  #define DEFAULT_bedKi 14.74
+  #define DEFAULT_bedKd 374.42
 
   // FIND YOUR OWN: "M303 E-1 C8 S90" to run autotune on the bed at 90 degreesC for 8 cycles.
 #endif // PIDTEMPBED
