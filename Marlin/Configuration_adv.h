@@ -3390,7 +3390,7 @@
   //#define USER_DESC_5 "Home & Info"
   //#define USER_GCODE_5 "G28\nM503"
 
-    #if ENABLED(CUSTOM_USER_MENUS)
+ #if ENABLED(CUSTOM_USER_MENUS)
   #define USER_SCRIPT_DONE "M117 Done" //Customized DBP
   //#define USER_SCRIPT_AUDIBLE_FEEDBACK Customized DBP
   #define USER_SCRIPT_RETURN  // Return to status screen after a script Customized DBP
